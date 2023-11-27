@@ -1,0 +1,86 @@
+  /* Cambia el color de fondo y el color de texto de la barra de navegación */
+  .navbar-custom {
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+}
+
+/* Cambia el color del texto de los enlaces de la barra de navegación */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff; /* Blanco */
+}
+
+/* Cambia el color del ícono del menú de hamburguesas a blanco */
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Blanco */
+}
+
+/* Solución para cambiar el color del ícono del menú de hamburguesas */
+.navbar-toggler-icon span {
+    background-color: #ffffff; /* Blanco */
+}
+
+.navbar-brand img{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Estilos para la sección de la Tienda de Joyas */
+.tienda-seccion {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tienda-seccion h2 {
+    color: #000000; /* Negro */
+}
+
+.tienda-seccion p {
+    color: #555555; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilos para la Galería de Imágenes */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para el Footer */
+.footer {
+    background-color: #000000; /* Negro */
+    color: #ffffff; /* Blanco */
+    padding: 40px 0;
+}
+
+.footer h4 {
+    color: #ffffff; /* Blanco */
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #ffffff; /* Blanco */
+    margin-bottom: 10px;
+}
+
+/* Estilos para dispositivos pequeños (responsive) */
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .footer .text-md-right {
+        text-align: center !important;
+    }
+}
